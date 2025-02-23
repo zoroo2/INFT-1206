@@ -1,0 +1,122 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 10px;
+    line-height: 21px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  h1 {
+    text-align: center;
+    font-size:36px; 
+  }
+  h1,h2 {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+  }
+  h2+p {
+    text-indent: 20px;
+  }
+  a:active{
+    color: yellow;
+
+  }
+  a:hover {
+    text-decoration: none;
+    color:green;
+ }
+ a:focus {
+    outline: none;
+}
+a:link {
+  color: #a66;
+}
+a:visited{
+  color: #a66;
+}
+a:not([href^="/"]):not([href*="#"])::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url(external-link-52.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul,ol {
+  line-height: 20px;
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+  padding: 10px, 22px;
+  border: 2px solid #a66;
+  font-size: 10px ;
+  color: #a66;
+  text-align: center;
+  text-decoration: none;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+
